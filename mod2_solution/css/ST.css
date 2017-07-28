@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+h1{
+
+   font-family: arial;
+   text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    }
+
+.left{
+	color: #fff;
+	background:#bab0b0;
+	padding: 10px;
+    margin: 10px;
+	margin-left: 25px;
+    margin-right: 10px;
+	border-style: solid;
+	border-color: #222223;
+	float: left;
+	position: relative;
+    width: 30%;
+    /*min-width:30%;*/
+    color: black;
+    text-transform: lowercase;
+    font-family: roboto;
+   
+  
+}
+.p{
+	border-color: #222223;
+	border-style:solid;
+	position: absolute;
+	top: 0;
+	right: 0;
+    margin-bottom: 20px;
+    width: 40%;
+    font-size: 100px;
+    font-family: Bellefair;
+    
+
+}
+#chicken{
+    background-color:#e5a5a5 ;
+    font-size:15px;
+    color: black;
+    font-weight:bolder;
+    text-align: center;
+    height: 25px;
+    border-top-style: none;
+    border-right-style: none;
+   text-transform: capitalize; 
+}
+
+
+#beef{
+    background-color:#e82525 ;
+    font-size:15px;
+     color: aliceblue;
+    font-weight:bolder;
+    text-align: center;
+     height: 25px;
+     border-top-style: none;
+    border-right-style: none;
+    text-transform: capitalize;
+
+      
+}
+
+#sushi{
+    background-color:#f4f39c;
+    font-size:15px;
+    color: black;
+    font-weight:bolder;
+    text-align: center;
+     height: 25px;
+     border-top-style: none;
+    border-right-style: none;
+    text-transform: capitalize;
+
+  
+}
+p{
+    margin-top: 20px;
+}
+
+
+.se{
+    width: 100%;
+}
+
+
+
+
+/*view for desktop*/
+@media only screen and (min-width:992px){
+    .left{
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/*view for tablet*/
+ @media only screen and (max-width:991px) and (min-width:768px) {
+    .left{
+         float: left;
+        width: 40%;  }
+        .popo{
+            /*float: none;*/
+            width: 84%;
+            clear: both;
+            min-height: 150px;
+          
+        }
+     
+          
+    }
+    
+ 
+
+/*view for mobile*/
+@media only screen and (max-width:767px) {
+    .left{
+          float: left;
+        width:80%;
+        margin-left:10%;
+       
+    } 
+
+
+
+
+
